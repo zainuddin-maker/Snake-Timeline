@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.3.0" name="Snaketimeline" packageVersion="1.0.67" vendor="IoT Centre Lab"></ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="Snaketimeline">
+            <UIResources>
+                <FileResource description="" file="Snaketimeline.ide.js" isDevelopment="true" isRuntime="false" type="JS" />
+                <FileResource description="" file="Snaketimeline.ide.css" isDevelopment="true" isRuntime="false" type="CSS" />
+                <FileResource description="" file="Snaketimeline.runtime.js" isDevelopment="false" isRuntime="true" type="JS" />
+                <FileResource description="" file="Snaketimeline.runtime.css" isDevelopment="false" isRuntime="true" type="CSS" />
+                <FileResource description="" file="d3.min.js" isDevelopment="true" isRuntime="true" type="JS" /> 
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
