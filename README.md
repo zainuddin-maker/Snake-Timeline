@@ -3,7 +3,7 @@
   <br>
   <!-- <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a> -->
   <br>
-  Export data to PDF and Excell Template
+  Snake Timeline
   <br>
 </h1>
 
@@ -11,10 +11,11 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![screenshot](https://github.com/zainuddin-maker/ExporttoPDFandExcell/blob/master/test.gif?raw=true)
+![screenshot](https://github.com/zainuddin-maker/Snake-Timeline/blob/master/test.gif?raw=true)
 
 
-This application is used to generate documents in PDF and Excell file from data and the data from the thingworx platform
+This application is used to generate snake timeline for terminal ,
+why is this timeline called the snake timeline? because the timeline twists and turns like a snake , this time line generate from  data and the data from  thingworx platform .
 
 
 ## Usage example
@@ -22,9 +23,18 @@ This application is used to generate documents in PDF and Excell file from data 
 <table>
 <tr>
 <td>
-Once the data is ready, just click on the button with img as below, and wait for a while, the browser will download the pdf
 
-![Chat Preview](https://github.com/zainuddin-maker/Export5pageCustomtoPDF/blob/master/iconexport.PNG?raw=true)
+
+There are 3 click functions that are used in the snake timeline, the first function is when pressing the big circle in the middle, the color of this big circle is based on the status of the data obtained, the second function is when pressing the settings icon (icon to the right of the circle) and the last function is when pressing the undone icon (icon on the left), each function will output a value that can be parsed to the next application.
+
+
+If in 1 terminal there is more than 1 asset then if pressed a pop up list of assets will appear in the terminal. and each function is the same as described above.
+
+If there are more than 1 undone lists, a pop up will appear when pressed and has the same function as usual undone
+
+
+Every pop up is automatic so it doesn't cross the limit of the given div container
+<!-- ![Chat Preview](https://github.com/zainuddin-maker/Export5pageCustomtoPDF/blob/master/iconexport.PNG?raw=true) -->
 
 </td>
 </tr>
@@ -109,9 +119,9 @@ Once the data is ready, just click on the button with img as below, and wait for
 ## Built with 
 
 - [D3.js](https://d3js.org/) - D3.js is a JavaScript library for manipulating documents based on data.
-- [jspdf](https://www.npmjs.com/package/jspdf) - A library to generate PDFs in JavaScript.
-- [html2canvas](https://www.npmjs.com/package/html2canvas) - The script allows you to take "screenshots" of webpages or parts of it, directly on the users browser.
-- [html2pdf](https://www.npmjs.com/package/html2pdf.js/v/0.9.0) - html2pdf converts any webpage or element into a printable PDF entirely client-side using html2canvas and jsPDF.
+- [html](https://www.w3schools.com/html/) - HTML is the standard markup language for Web pages.
+- [css](https://www.w3schools.com/css/) - CSS is the language we use to style an HTML document
+
 
 
 
